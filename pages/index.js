@@ -6,7 +6,17 @@ import { Step } from '../components/Step'
 import { Statistic } from '../components/Statistic'
 import { Pricing } from '../components/Pricing'
 import { Faq } from '../components/Faq'
+import Message from '../components/Message'
+
+
+
+
+
+
 export default function Home() {
+
+
+
   return (
     <div className={styles.container}>
       <Head>
@@ -20,6 +30,7 @@ export default function Home() {
         <Step />
         <Pricing />
         <Faq />
+        <Message />
       </main>
 
       {/* <footer className={styles.footer}>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Link from "next/link";
 const Item = ({ title, children }) => {
     const [isOpen, setIsOpen] = useState(false);
   
@@ -169,13 +169,19 @@ const Item = ({ title, children }) => {
             <Item title="How do I sell whitelisting spots on Nft Cursor?">
             <div className="space-y-8 ">
             <p>* We have prepared a step-by-step guide on how to sell on Nft Cursor.</p>
-            <p>* Kindly click here to get started.</p>
+            <p>* Kindly click 
+              {" "}
+              <Link href='/contact'>
+             <span className="text-blue-500 cursor-pointer underline text-lg font-semibold" > here</span>
+              </Link>
+              {" "}
+               to get started.</p>
             </div>
             </Item>
 
             <Item title="How is fraud prevented on Nft Cursor?">
             <div className="space-y-8 ">
-            <p>* Fraud is prevented via smart contract, escrow and dispute resolution measures, to ensure everyone has an enjoyable experience.</p>
+            <p>* Fraud is prevented via AI automation tools, escrow and dispute resolution measures, to ensure everyone has an enjoyable experience.</p>
             <p>* Bad actors are disincentivized to use Nft Cursor.</p>
             </div>
             </Item>
@@ -194,8 +200,8 @@ const Item = ({ title, children }) => {
 
             <Item title="Do I pay fees when using Nft Cursor?">
             <div className="space-y-8 ">
-            <p>* A one-off payment of 20 BUSD is required to transact with a seller and a subsequent payment of 5BUSD.</p>
-            <p>* A 2% deduction from the seller is tenable to users of Nft Cursor.</p>
+            <p>* A 0 BUSD is required to transact with a seller.</p>
+            <p>* A 2% tax from the seller is tenable to users of Nft Cursor.</p>
             <p>* No other fee is required to use Nft Cursor.</p>
             </div>
             </Item>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Pricing = () => {
     return (
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -36,18 +38,18 @@ export const Pricing = () => {
             Membership Subscription.
           </h2>
           <p className="text-gray-700 text-lg font-bold">
-           Nft Cursor NFT whitelist trading is <span className="text-blue-400">forever</span> free.
+           NFT CURSOR one time payment 
           </p>
         </div>
         <div className="grid max-w-md gap-10 row-gap-5 sm:row-gap-10 lg:max-w-screen-md mx-auto">
-          {/* <div className="flex flex-col justify-between p-5 bg-white border rounded shadow-sm">
+          <div className="flex flex-col justify-between p-5 bg-white border rounded shadow-sm">
             <div className="mb-6">
               <div className="flex items-center justify-between pb-6 mb-6 border-b">
                 <div>
                   <p className="text-sm font-bold tracking-wider uppercase">
-                    Personal use
+                   Nft Cursor use
                   </p>
-                  <p className="text-5xl font-extrabold">Free</p>
+                  <p className="text-5xl font-extrabold">$0</p>
                 </div>
                 <div className="flex items-center justify-center w-24 h-24 rounded-full bg-blue-gray-50">
                   <svg
@@ -95,7 +97,7 @@ export const Pricing = () => {
                       </svg>
                     </div>
                     <p className="font-medium text-gray-800">
-                      10 deploys per day
+                    Buy & Sell Nft whitelist
                     </p>
                   </li>
                   <li className="flex items-center">
@@ -120,7 +122,9 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p className="font-medium text-gray-800">10 GB of storage</p>
+                    <p className="font-medium text-gray-800">
+                    2.5% tax on all trade 
+                    </p>
                   </li>
                   <li className="flex items-center">
                     <div className="mr-2">
@@ -144,8 +148,32 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p className="font-medium text-gray-800">Unlimited domains</p>
+                    <p className="font-medium text-gray-800"> Get NFT project verified. Avoid Rug pull Scams!</p>
                   </li>
+                  {/* <li className="flex items-center">
+                    <div className="mr-2">
+                      <svg
+                        className="w-4 h-4 text-deep-purple-accent-400"
+                        viewBox="0 0 24 24"
+                        strokeLinecap="round"
+                        strokeLidth="2"
+                      >
+                        <polyline
+                          fill="none"
+                          stroke="currentColor"
+                          points="6,12 10,16 18,8"
+                        />
+                        <circle
+                          cx="12"
+                          cy="12"
+                          fill="none"
+                          r="11"
+                          stroke="currentColor"
+                        />
+                      </svg>
+                    </div>
+                    <p className="font-medium text-gray-800"></p>
+                  </li> */}
                   <li className="flex items-center">
                     <div className="mr-2">
                       <svg
@@ -168,24 +196,25 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p className="font-medium text-gray-800">SSL Certificates</p>
+                    <p className="font-medium text-gray-800">24/7 support</p>
                   </li>
                 </ul>
               </div>
             </div>
             <div>
-              <a
+              <Link href='/contact'>
+              <div
                 // href="/"
-                className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
+                className="cursor-pointer inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
               >
                 Start for free
-              </a>
+              </div>
+              </Link>
               <p className="text-sm text-gray-600">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium
+                
               </p>
             </div>
-          </div> */}
+          </div> 
           <div className="flex flex-col justify-between p-5 bg-white border rounded shadow-sm">
             <div className="mb-6">
               <div className="flex items-center justify-between pb-6 mb-6 border-b">
@@ -193,7 +222,7 @@ export const Pricing = () => {
                   <p className="text-sm font-bold tracking-wider uppercase">
                     For Premium Benefits
                   </p>
-                  <p className="text-5xl font-extrabold">$49</p>
+                  <p className="text-5xl font-extrabold">$125</p>
                 </div>
                 <div className="flex items-center justify-center w-24 h-24 rounded-full bg-indigo-50">
                   <svg
@@ -238,6 +267,54 @@ export const Pricing = () => {
               <div>
                 <p className="mb-2 font-bold tracking-wide">Features</p>
                 <ul className="space-y-2">
+                  <li className="flex items-center">
+                    <div className="mr-2">
+                      <svg
+                        className="w-4 h-4 text-deep-purple-accent-400"
+                        viewBox="0 0 24 24"
+                        strokeLinecap="round"
+                        strokeLidth="2"
+                      >
+                        <polyline
+                          fill="none"
+                          stroke="currentColor"
+                          points="6,12 10,16 18,8"
+                        />
+                        <circle
+                          cx="12"
+                          cy="12"
+                          fill="none"
+                          r="11"
+                          stroke="currentColor"
+                        />
+                      </svg>
+                    </div>
+                    <p className="font-medium text-gray-800"> Buy & Sell Nft whitelist</p>
+                  </li>
+                  <li className="flex items-center">
+                    <div className="mr-2">
+                      <svg
+                        className="w-4 h-4 text-deep-purple-accent-400"
+                        viewBox="0 0 24 24"
+                        strokeLinecap="round"
+                        strokeLidth="2"
+                      >
+                        <polyline
+                          fill="none"
+                          stroke="currentColor"
+                          points="6,12 10,16 18,8"
+                        />
+                        <circle
+                          cx="12"
+                          cy="12"
+                          fill="none"
+                          r="11"
+                          stroke="currentColor"
+                        />
+                      </svg>
+                    </div>
+                    <p className="font-medium text-gray-800">1% tax on all trade</p>
+                  </li>
                   <li className="flex items-center">
                     <div className="mr-2">
                       <svg
@@ -310,7 +387,32 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p className="font-medium text-gray-800">Push Notiification for exclusive NFT projects</p>
+                    <p className="font-medium text-gray-800">NFT projects Push Notiifications</p>
+                  </li>
+
+                  <li className="flex items-center">
+                    <div className="mr-2">
+                      <svg
+                        className="w-4 h-4 text-deep-purple-accent-400"
+                        viewBox="0 0 24 24"
+                        strokeLinecap="round"
+                        strokeLidth="2"
+                      >
+                        <polyline
+                          fill="none"
+                          stroke="currentColor"
+                          points="6,12 10,16 18,8"
+                        />
+                        <circle
+                          cx="12"
+                          cy="12"
+                          fill="none"
+                          r="11"
+                          stroke="currentColor"
+                        />
+                      </svg>
+                    </div>
+                    <p className="font-medium text-gray-800">Customized Services</p>
                   </li>
                   <li className="flex items-center">
                     <div className="mr-2">
@@ -336,6 +438,8 @@ export const Pricing = () => {
                     </div>
                     <p className="font-medium text-gray-800">24/7 support</p>
                   </li>
+
+
                   {/* <li className="flex items-center">
                     <div className="mr-2">
                       <svg
@@ -364,7 +468,7 @@ export const Pricing = () => {
               </div>
             </div>
             <div>
-             <a className="text-center px-3 py-3 rounded-xl text-white bg-blue-500 hover:bg-blue-700 mx-auto w-11/12 mb-4"  target="_blank" rel="noopener noreferrer" href='https://sndc.sh/to/mp2pv'>Pay</a>
+             <a className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-non"  target="_blank" rel="noopener noreferrer" href='https://sndc.sh/to/mp2pv'>Pay</a>
               <p className="text-sm text-gray-600 py-2">
                Choosing premium lets us do the hard work for you by verify every project against rug pull.
               </p>

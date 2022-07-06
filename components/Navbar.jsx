@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 
 
 
@@ -15,9 +15,9 @@ const Navbar = () => {
             <h1 className="text-2xl font-extrabold">Cursor</h1>
         </div>
 
-        <div>
-            <button className="px-8 py-3 bg-blue-500 hover:bg-blue-700 text-white font-semibold text-lg rounded-3xl">Trade</button>
-        </div>
+        {/* <Link href='/contact'>
+            <div className="px-8 py-3 bg-blue-500 hover:bg-blue-700 text-white font-semibold text-lg rounded-3xl cursor-pointer">Trade</div>
+        </Link> */}
         </div>
         
         </>
