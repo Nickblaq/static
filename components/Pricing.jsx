@@ -364,9 +364,7 @@ export const Pricing = () => {
               </div>
             </div>
             <div>
-              <a target="_blank" rel="noopener noreferrer" href='https://sndc.sh/to/mp2pv'>
-             <button className="text-center px-3 py-3 rounded-xl text-white bg-blue-500 hover:bg-blue-700 mx-auto w-11/12 mb-4">Pay</button>
-             </a>
+             <a className="text-center px-3 py-3 rounded-xl text-white bg-blue-500 hover:bg-blue-700 mx-auto w-11/12 mb-4"  target="_blank" rel="noopener noreferrer" href='https://sndc.sh/to/mp2pv'>Pay</a>
               <p className="text-sm text-gray-600 py-2">
                Choosing premium lets us do the hard work for you by verify every project against rug pull.
               </p>
