@@ -43,11 +43,11 @@ const Message = () => {
   To get updates on product development sunscribe to our newsletter.
     </p>
 
-    <form action="" className="p-8 mt-6 mb-0 space-y-4 rounded-lg shadow-2xl">
+    <form  className="p-8 mt-6 mb-0 space-y-4 rounded-lg shadow-2xl">
       <p className="text-lg text-center font-black">NFT CURSOR NEWSLETTER</p>
 
       <div>
-        <label for="email" className="text-sm font-medium">Email</label>
+        <label className="text-sm font-medium">Email</label>
 
         <div className="relative mt-1">
           <input
