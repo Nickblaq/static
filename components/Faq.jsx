@@ -63,10 +63,10 @@ const Item = ({ title, children }) => {
       </div>
 
       <div className="lg:py-24">
-        <h2 className="text-3xl font-bold sm:text-4xl">Promote your NFT Project & Rest Assured</h2>
+        <h2 className="text-3xl font-bold sm:text-4xl">Promote your NFT Project &apos; Rest Assured</h2>
 
         <p className="mt-4 text-gray-600">
-        Every Artist has a dream to sell out on the minute its launched. We are a dedicated team who will look after your promotions to get the best outcomes and help our clients to achieve the goals of reaching the maximum audience. Creating difference, which will be valued towards the promoter's interest and building strong connections in the NFT world.
+        Every Artist has a dream to sell out on the minute its launched. We are a dedicated team who will look after your promotions to get the best outcomes and help our clients to achieve the goals of reaching the maximum audience. Creating difference, which will be valued towards the promoter&apos;s interest and building strong connections in the NFT world.
 We make sure to reach the number of users and create a echos of your project and show its importance.
         </p>
 
@@ -77,8 +77,8 @@ We make sure to reach the number of users and create a echos of your project and
         >
           <span className="text-sm font-medium">Submit Event</span>
 
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 ml-3 animate-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 ml-3 animate-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
 </svg>
         </div>
         <div
@@ -88,7 +88,7 @@ We make sure to reach the number of users and create a echos of your project and
           <span className="text-sm font-medium"> Learn More</span>
 
           <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 ml-3" viewBox="0 0 20 20" fill="currentColor">
-  <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+  <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd" />
 </svg>
         </div>
         </div>
@@ -101,7 +101,7 @@ We make sure to reach the number of users and create a echos of your project and
 
       <section className="text-white bg-gray-900">
   <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-    <div classname="max-w-lg mx-auto text-center">
+    <div className="max-w-lg mx-auto text-center">
       <h2 className="text-3xl font-bold sm:text-4xl">Why kickstart your marketing upcoming Event with Cusor?</h2>
 
       <p className="mt-4 text-gray-300 text-2xl text-left">
@@ -256,8 +256,8 @@ We make sure to reach the number of users and create a echos of your project and
       >
         <span className="text-sm font-medium"> Submit Event</span>
 
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 ml-3 animate-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 ml-3 animate-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
 </svg>
       </div>
     </div>

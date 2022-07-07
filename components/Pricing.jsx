@@ -97,7 +97,7 @@ export const Pricing = () => {
                       </svg>
                     </div>
                     <p className="font-medium text-gray-800">
-                    Buy & Sell Nft whitelist
+                    Buy &apos; Sell Nft whitelist
                     </p>
                   </li>
                   <li className="flex items-center">
@@ -289,7 +289,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p className="font-medium text-gray-800"> Buy & Sell Nft whitelist</p>
+                    <p className="font-medium text-gray-800"> Buy &apos; Sell Nft whitelist</p>
                   </li>
                   <li className="flex items-center">
                     <div className="mr-2">

@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react"
-import DatePicker from "react-datepicker";
 
 function NftForm() {
 
@@ -162,9 +161,10 @@ function NftForm() {
               defaultValue={isChain}
               onChange={(e) => setChain(e.target.value)}
             >
-            {options.map((option) => (
+            {options.map((index, option) => (
               <option
               className="text-sm font-medium"
+              key={index}
                value={option.value}>
                 
                 {option.label}</option>
@@ -179,9 +179,10 @@ function NftForm() {
               defaultValue={isCategory}
               onChange={(e) => setCategory(e.target.value)}
             >
-            {categories.map((category) => (
+            {categories.map((index, category) => (
               <option
               className="text-sm font-medium"
+              key={index}
                value={category.value}>
                 
                 {category.label}</option>
@@ -197,9 +198,10 @@ function NftForm() {
               defaultValue={isCurrency}
               onChange={(e) => setCategory(e.target.value)}
             >
-            {tokens.map((token) => (
+            {tokens.map((index, token) => (
               <option
               className="text-sm font-medium"
+              key={index}
                value={token.value}>
                 
                 {token.label}</option>
@@ -261,8 +263,8 @@ function NftForm() {
 
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 mt-6">
             <div className="flex flex-col">
-            <p className="text-left py-4 text-lg  font-mono font-thin">Start Date, Time & GMT</p>
-              <label className="sr-only">Start Date, Time & GMT</label>
+            <p className="text-left py-4 text-lg  font-mono font-thin">Start Date, Time &apos; GMT</p>
+              <label className="sr-only">Start Date, Time &apos; GMT</label>
               <input
                 className="w-full p-3 text-sm border-gray-200 rounded-lg placeholder:font-sans placeholder:font-normal"
                 placeholder="Day/Month/Year, 10am, GMT +09:30"
@@ -271,8 +273,8 @@ function NftForm() {
             </div>
 
             <div className="flex flex-col">
-            <p className="text-left py-4 text-lg  font-mono font-thin">End Date, Time & GMT</p>
-              <label className="sr-only">End Date, Time & GMT</label>
+            <p className="text-left py-4 text-lg  font-mono font-thin">End Date, Time &apos; GMT</p>
+              <label className="sr-only">End Date, Time &apos; GMT</label>
               <input
                 className="w-full p-3 text-sm border-gray-200 rounded-lg placeholder:font-sans placeholder:font-normal"
                 placeholder="Day/Month/Year, 10am, GMT +09:30"
@@ -322,7 +324,7 @@ s
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </button>
           </div>
