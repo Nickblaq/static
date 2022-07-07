@@ -1,5 +1,5 @@
-// import Airtable from 'airtable'
+import Airtable from 'airtable'
 
-// const base = new Airtable({apiKey: 'keyQbFA8IznLJs1If'}).base('appEYBJbEFPSTTPFU')
+const base = new Airtable({apiKey: ''}).base('')
 
-// export default base;
+export default base;
