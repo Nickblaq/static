@@ -1,12 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Landing from '../components/Landing'
 import { Step } from '../components/Step'
-import { Statistic } from '../components/Statistic'
-import { Pricing } from '../components/Pricing'
-import { Faq } from '../components/Faq'
-// import Message from '../components/Message'
 
 
 
@@ -20,16 +15,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Nft Cursor</title>
-        <meta name="description" content="Nft Cursor secure Nft whitelist marketplace" />
+        <title>Cusor</title>
+        <meta name="description" content="Cusor secure Nft whitelist marketplace" />
         <link rel="icon" href="/flame.svg" />
       </Head>
 
       <main className={styles.main}>
-        {/* <Landing /> */}
         <Step />
-        <Pricing />
-        <Faq />
         {/* <Message /> */}
       </main>
 

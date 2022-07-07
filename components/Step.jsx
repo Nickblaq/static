@@ -40,7 +40,7 @@ export const Step = () => {
             ,Buy and Sell NFT whitelist in minutes
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Grind for a whitelist spot and easily sell on Nft Cursor; buy in a simple steps without grinding;curate upcoming mints and set reeminder.
+            Grind for a whitelist spot and easily sell on Cusor; buy in a simple steps without grinding;curate upcoming mints and set reeminder.
           </p>
         </div>
         </div>

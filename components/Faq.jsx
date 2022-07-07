@@ -4,6 +4,9 @@ const Item = ({ title, children }) => {
     const [isOpen, setIsOpen] = useState(false);
   
     return (
+      
+
+
       <div className="border rounded shadow-sm">
         <button
           type="button"
@@ -43,6 +46,226 @@ const Item = ({ title, children }) => {
   
   export const Faq = () => {
     return (
+      <div>
+        {/* FIRST!!! */}
+
+        <section>
+  <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
+      <div
+        className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full lg:order-last"
+      >
+        <img
+          className="absolute inset-0 object-cover w-full h-full"
+          src="/sold-out-banner.jpg"
+          alt="Man using a computer"
+        />
+      </div>
+
+      <div className="lg:py-24">
+        <h2 className="text-3xl font-bold sm:text-4xl">Promote your NFT Project & Rest Assured</h2>
+
+        <p className="mt-4 text-gray-600">
+        Every Artist has a dream to sell out on the minute its launched. We are a dedicated team who will look after your promotions to get the best outcomes and help our clients to achieve the goals of reaching the maximum audience. Creating difference, which will be valued towards the promoter's interest and building strong connections in the NFT world.
+We make sure to reach the number of users and create a echos of your project and show its importance.
+        </p>
+
+      <div className="flex flex-col md:flex-row md:justify-evenly items-center">
+        <div
+          className="inline-flex items-center px-8 py-3 mt-8 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
+          href="/get-started"
+        >
+          <span className="text-sm font-medium">Submit Event</span>
+
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 ml-3 animate-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+</svg>
+        </div>
+        <div
+          className="inline-flex items-center px-8 py-3 mt-8 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
+          href="/get-started"
+        >
+          <span className="text-sm font-medium"> Learn More</span>
+
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 ml-3" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+</svg>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      {/* SECOND!!! */}
+
+      <section className="text-white bg-gray-900">
+  <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+    <div classname="max-w-lg mx-auto text-center">
+      <h2 className="text-3xl font-bold sm:text-4xl">Why kickstart your marketing upcoming Event with Cusor?</h2>
+
+      <p className="mt-4 text-gray-300 text-2xl text-left">
+      To achieve goal, we implement different strategies and tactics,
+
+       including marketing and channelizing the project towards the larger audience. 
+       which will create a joeys atmosphere towards your project.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+      <div
+        className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+      >
+       <div className="w-8 h-8">
+            <img src="/free-icon.png" />
+            </div>
+
+        <h3 className="mt-4 text-xl font-bold text-white">Free</h3>
+
+        <p className="mt-1 text-sm text-gray-300">
+        Free listing of your project for lifetime.
+        </p>
+      </div>
+
+      <div
+        className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+      >
+         <div className="w-8 h-8">
+            <img src="/technical-support.png" />
+            </div>
+        <h3 className="mt-4 text-xl font-bold text-white">Support</h3>
+
+        <p className="mt-1 text-sm text-gray-300">
+        24/7 Support from the team of Upcomingnft.
+        </p>
+      </div>
+
+      <div
+        className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+      >
+       
+       <div className="w-8 h-8">
+            <img src="/trend.png" />
+            </div>
+
+        <h3 className="mt-4 text-xl font-bold text-white">Trend</h3>
+
+        <p className="mt-1 text-sm text-gray-300">
+        Get exposure from heavy traffic i.e, 8-10k visitors of Cusor.
+        </p>
+      </div>
+
+      <div
+        className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+      >
+        <div className="w-8 h-8">
+            <img src="/personalization.png" />
+            </div>
+
+        <h3 className="mt-4 text-xl font-bold text-white">Personalization</h3>
+
+        <p className="mt-1 text-sm text-gray-300">
+        Get Personalised event alerts to all our subscribers.
+        </p>
+      </div>
+
+      <div
+        className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+      >
+        <div className="w-8 h-8">
+            <img src="/promotion.png" />
+            </div>
+
+        <h3 className="mt-4 text-xl font-bold text-white">Promotion</h3>
+
+        <p className="mt-1 text-sm text-gray-300">
+        Astounding packages are available to promote your NFT Project.
+        </p>
+      </div>
+
+      <div
+        className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+      >
+        <div className="w-8 h-8">
+            <img src="/document.png" />
+            </div>
+
+        <h3 className="mt-4 text-xl font-bold text-white">Document</h3>
+
+        <p className="mt-1 text-sm text-gray-300">
+        We are open to every NFT publisher who wants our whitelist data for free.
+        </p>
+      </div>
+      <div
+        className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+      >
+        <div className="w-8 h-8">
+            <img src="/artist-goal.png" />
+            </div>
+
+        <h3 className="mt-4 text-xl font-bold text-white">Artist</h3>
+
+        <p className="mt-1 text-sm text-gray-300">
+        Our goal at upcomingnft is to support the talents of every artist by promoting them.
+        </p>
+      </div>
+      <div
+        className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+      >
+        <div className="w-8 h-8">
+            <img src="/communities.png" />
+            </div>
+
+        <h3 className="mt-4 text-xl font-bold text-white">Community</h3>
+
+        <p className="mt-1 text-sm text-gray-300">
+        We make a good community and a renowned presence on social media.
+        </p>
+      </div>
+      <div
+        className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+      >
+        <div className="w-8 h-8">
+            <img src="/endless.png" />
+            </div>
+
+        <h3 className="mt-4 text-xl font-bold text-white">Automation</h3>
+
+        <p className="mt-1 text-sm text-gray-300">
+        Enable unlimited event edits in the promoted events. Automate your pipeline.
+        </p>
+      </div>
+      <div
+        className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+      >
+        <div className="w-8 h-8">
+            <img src="/trending-topic.png" />
+            </div>
+
+        <h3 className="mt-4 text-xl font-bold text-white">NewsLetter</h3>
+
+        <p className="mt-1 text-sm text-gray-300">Stay updated with the NFT trends, topics, and news. We make a good community and a renowned presence on social media.
+        </p>
+      </div>
+    </div>
+
+    <div className="mt-12 text-center">
+      <div
+        className="inline-flex items-center px-8 py-3 mt-8 text-white bg-pink-600 border border-pink-600 rounded hover:bg-transparent active:text-pink-500 focus:outline-none focus:ring"
+       
+      >
+        <span className="text-sm font-medium"> Submit Event</span>
+
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 ml-3 animate-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+</svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      {/* THIRD */}
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div className="flex flex-col mb-16 sm:text-center">
@@ -147,28 +370,28 @@ const Item = ({ title, children }) => {
             <div className="space-y-8 ">
             <p>* No, you cannot sell above mint price .</p>
             <p>* List ads are only valid if sell price is set at 50% less than mint price .</p>
-            <p>* This allows risk-sharing and helps Nft Cursor ensure an ethical and fair market.</p>
+            <p>* This allows risk-sharing and helps Cusor ensure an ethical and fair market.</p>
             </div>
             </Item>
             
             <Item title="What is NftCursor?">
             <div className="space-y-8 ">
-            <p>* Nft Cursor is an NFT whitelist marketplace; it connects buyers and sellers of whitelisting spots in a peer-to-peer fashion, powered by smart contract.</p>
-            <p>* Nft Cursor helps NFT enthusiasts to curate upcoming mints through direct mail notifications.</p>
-            <p>* Nft Cursor uses a unique algorithm to provide NFT data such as trending NFTs and upcoming NFTs available for public view and use.</p>
+            <p>* Cusor is an NFT whitelist marketplace; it connects buyers and sellers of whitelisting spots in a peer-to-peer fashion, powered by smart contract.</p>
+            <p>* Cusor helps NFT enthusiasts to curate upcoming mints through direct mail notifications.</p>
+            <p>* Cusor uses a unique algorithm to provide NFT data such as trending NFTs and upcoming NFTs available for public view and use.</p>
             </div>
             </Item>
 
-            <Item title="How do I buy whitelisting spots on Nft Cursor?">
+            <Item title="How do I buy whitelisting spots on Cusor?">
             <div className="space-y-8 ">
-            <p>* We have prepared a step-by-step guide on how to buy on Nft Cursor.</p>
+            <p>* We have prepared a step-by-step guide on how to buy on Cusor.</p>
             <p>* Kindly click here to get started.</p>
             </div>
             </Item>
 
-            <Item title="How do I sell whitelisting spots on Nft Cursor?">
+            <Item title="How do I sell whitelisting spots on Cusor?">
             <div className="space-y-8 ">
-            <p>* We have prepared a step-by-step guide on how to sell on Nft Cursor.</p>
+            <p>* We have prepared a step-by-step guide on how to sell on Cusor.</p>
             <p>* Kindly click 
               {" "}
               <Link href='/contact'>
@@ -179,40 +402,41 @@ const Item = ({ title, children }) => {
             </div>
             </Item>
 
-            <Item title="How is fraud prevented on Nft Cursor?">
+            <Item title="How is fraud prevented on Cusor?">
             <div className="space-y-8 ">
             <p>* Fraud is prevented via AI automation tools, escrow and dispute resolution measures, to ensure everyone has an enjoyable experience.</p>
-            <p>* Bad actors are disincentivized to use Nft Cursor.</p>
+            <p>* Bad actors are disincentivized to use Cusor.</p>
             </div>
             </Item>
 
-            <Item title="Apart from buying and selling of whitelisting spots, what else can I do on Nft Cursor?">
+            <Item title="Apart from buying and selling of whitelisting spots, what else can I do on Cusor?">
             <div className="space-y-8 ">
-            <p>Nft Cursor allows you to curate upcoming mints, and set notification for the mint dates.</p>
+            <p>Cusor allows you to curate upcoming mints, and set notification for the mint dates.</p>
             </div>
             </Item>
 
-            <Item title="What is the payment method on Nft Cursor?">
+            <Item title="What is the payment method on Cusor?">
             <div className="space-y-8 ">
             <p>The payment method is BUSD & USDT.</p>
             </div>
             </Item>
 
-            <Item title="Do I pay fees when using Nft Cursor?">
+            <Item title="Do I pay fees when using Cusor?">
             <div className="space-y-8 ">
             <p>* A 0 BUSD is required to transact with a seller.</p>
-            <p>* A 2% tax from the seller is tenable to users of Nft Cursor.</p>
-            <p>* No other fee is required to use Nft Cursor.</p>
+            <p>* A 2% tax from the seller is tenable to users of Cusor.</p>
+            <p>* No other fee is required to use Cusor.</p>
             </div>
             </Item>
 
-            <Item title="Is Nft Cursor safe?">
+            <Item title="Is Cusor safe?">
             <div className="space-y-8 ">
-            <p>Nft Cursor is completely safe to use.</p>
+            <p>Cusor is completely safe to use.</p>
             </div>
             </Item>
           </div>
         </div>
+      </div>
       </div>
     );
   };
