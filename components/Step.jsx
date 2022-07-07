@@ -35,12 +35,12 @@ export const Step = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative">Search</span>
+              <span className="relative">Cusor</span>
             </span>{' '}
-            ,Buy and Sell NFT whitelist in minutes
+            MarketPlace
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Grind for a whitelist spot and easily sell on Cusor; buy in a simple steps without grinding;curate upcoming mints and set reeminder.
+          Cusor  cover the most eye-catching NFt-Whitelist, drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!
           </p>
         </div>
         </div>
@@ -51,31 +51,22 @@ export const Step = () => {
               <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400">
                 1
               </p>
-              <p className="text-lg font-bold leading-5">List Your Whitelist spot</p>
+              <p className="text-lg font-bold leading-5">List your whitelist spot</p>
             </div>
             <p className="text-sm text-gray-900">
-              List whitelist spot on the marketplace by uploading relevant details
+              List whitelist spot on the marketplace by uploading relevant details, Buy &apos; Sell whitelist spot securely using Cusor.
             </p>
           </div>
-          <div className="p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-deep-purple-accent-200 hover:-translate-y-2">
-            <div className="flex items-center mb-2">
-              <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400">
-                2
-              </p>
-              <p className="text-lg font-bold leading-5">Buy a whitelist spot</p>
-            </div>
-            <p className="text-sm text-gray-900">
-              Engage with whitelist spot sell ads of interest.
-            </p>
-          </div>
+          
           <div className="relative p-5 duration-300 transform bg-white border-2 rounded shadow-sm border-deep-purple-accent-700 hover:-translate-y-2">
             <div className="flex items-center mb-2">
               <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400">
                 3
               </p>
-              <p className="text-lg font-bold leading-5">Monitor upcoming mints</p>
+              <p className="text-lg font-bold leading-5">Calender</p>
             </div>
             <p className="text-sm text-gray-900">
+            We cover the most eye-catching drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!
               Keep tabs on your favourite NFT projects by putting on push notification.
             </p>
             <p className="absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-deep-purple-accent-400 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10">
@@ -93,6 +84,17 @@ export const Step = () => {
                   points="6,12 10,16 18,8"
                 />
               </svg>
+            </p>
+          </div>
+          <div className="p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-deep-purple-accent-200 hover:-translate-y-2">
+            <div className="flex items-center mb-2">
+              <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400">
+                2
+              </p>
+              <p className="text-2xl text-left font-bold leading-5">Marketing</p>
+            </div>
+            <p className="text-sm text-gray-900">
+              Engage thousands of active users. Reach users across our social network, access targeted users Cusor Campaign.
             </p>
           </div>
         </div>
