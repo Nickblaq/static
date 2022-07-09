@@ -338,3 +338,17 @@ s
   }
   
   export default  NftForm
+
+
+  // export async function getServerSideProps() {
+  //   const airtableApi = process.env.AIRTABLE_API_KEY
+  //   const baseId = process.env.AIRTABLE_BASE_KEY
+    
+
+  //   console.log(
+  //     `Api Keys ${airtableApi} and ${baseId}`
+  //   )
+  //   return {
+  //      props: ({ airtableApi, baseId })  // will be passed to the page component as props
+  //   }
+  // }
