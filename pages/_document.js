@@ -10,7 +10,8 @@ class MyDocument extends Document {
             <link rel="icon" href="/flame.svg" />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ramaraja&display=swap" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ramaraja&display=swap" rel="stylesheet" />
     </Head>
         <body className="">
           <Main />

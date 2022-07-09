@@ -11,17 +11,17 @@ const Navbar = () => {
 
     return (
         <>
-        <div classNameName="flex justify-between items-center w-11/12 mx-auto mt-6">
+        <div className="flex justify-center items-center w-11/12 mx-auto  bg-gray-200">
         {/* <div className="flex cursor-pointer">
             <div className="w-8 h-8">
             <img src="/nftlogo.svg" />
             </div>
-            <h1 classNameName="text-2xl font-extrabold">Cursor</h1>
+            <h1 className="text-2xl font-extrabold">Cursor</h1>
         </div> */}
 
 <header className="shadow-sm">
   <div
-    className="flex items-center justify-between h-16 max-w-screen-xl px-4 mx-auto"
+    className="flex items-center justify-between h-16 max-w-screen-xl px-4 mx-auto "
   >
     {/* <div className="md:flex flex-1 w-0 hidden"
     
@@ -47,9 +47,11 @@ const Navbar = () => {
     </div> */}
 
     <div className="flex items-center space-x-4">
+      <Link href='/'>
       <span className="w-20 h-10  mr-6">
-        <h1 className='text-2xl font-black '>CURSOR</h1>
+        <h1 className='text-2xl font-black font-fancy'>CURSOR</h1>
       </span>
+      </Link>
 
       <form className="hidden mb-0 lg:flex">
         <div className="relative">
@@ -104,36 +106,38 @@ const Navbar = () => {
     }
 
     <nav
-      className="items-center justify-center hidden space-x-8 text-sm font-medium lg:flex lg:flex-1 lg:w-0"
+      className="items-center justify-center hidden space-x-8 text-sm font-medium lg:flex lg:flex-1 lg:w-0 bg-slate-600"
     >
          <Link href='/nftform'>
          <span className="text-gray-900 cursor-pointer" >List</span>
          </Link>
       <EventButton />
       <span className="text-gray-900 cursor-pointer" >Promote</span>
-      <Link href='/About'>
+      <Link href='/about'>
       <span className="text-gray-900 cursor-pointer">About</span>
       </Link>
       <span className="text-gray-900 cursor-pointer" >Contact</span>
     </nav>
 
     <div className="items-center hidden space-x-4 lg:flex">
-      <div
+      {/* <div
         className="px-5 py-2 text-sm font-medium text-gray-600 bg-gray-100 rounded-lg"
        
       >
-        Log in
-      </div>
+        List 
+      </div> */}
+      <Link href='/listnftform'>
       <div
-        className="px-5 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg"
+        className="cursor-pointer px-5 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg"
     
       >
-        Sign up
+        ListWhitelist
       </div>
+      </Link>
     </div>
   </div>
 
-  <div className="border-t border-gray-100 lg:hidden sticky z-20">
+  <div className=" lg:hidden sticky z-20">
     <nav
       className="flex items-center justify-center p-4 overflow-x-auto text-sm font-medium"
     >

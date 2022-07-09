@@ -35,7 +35,7 @@ export const Step = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative">Cusor</span>
+              <span className="relative font-black">Cusor</span>
             </span>{' '}
             MarketPlace
           </h2>
@@ -91,7 +91,7 @@ export const Step = () => {
               <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400">
                 2
               </p>
-              <p className="text-2xl text-left font-bold leading-5">Marketing</p>
+              <p className="text-lg font-bold leading-5">Marketing</p>
             </div>
             <p className="text-sm text-gray-900">
               Engage thousands of active users. Reach users across our social network, access targeted users Cusor Campaign.

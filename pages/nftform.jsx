@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-
+import Select from 'react-select'
 function NftForm() {
 
   const options = [
@@ -97,10 +97,9 @@ function NftForm() {
 
   
 
-  const [isChain, setChain] = useState();
-  const [isCategory, setCategory] = useState();
-  const [isCurrency, setCurrency] = useState()
-
+  const [isChain, setChain] = useState('');
+  const [isCategory, setCategory] = useState('');
+  const [isCurrency, setCurrency] = useState("Ethereum")
 
   const [startDate, setStartDate] = useState(new Date());
 
@@ -174,39 +173,38 @@ function NftForm() {
             <div className="flex flex-col">
             <p className="text-left py-4 text-lg  font-mono font-thin">Select Category</p>
             <select 
-            className="block w-full p-3 border border-gray-200 rounded-lg placeholder:font-sans placeholder:font-normal"
+            className="block w-full p-3 border text-black border-gray-200 rounded-lg placeholder:font-sans placeholder:font-normal"
               value={isCategory}
               defaultValue={isCategory}
               onChange={(e) => setCategory(e.target.value)}
             >
             {categories.map((index, category) => (
+              <span
+              key={index}
+              >
               <option
               className="text-sm font-medium"
-              key={index}
-               value={category.value}>
+              
+               >
                 
                 {category.label}</option>
+                </span>
             ))}
           </select>
             </div>
 
             <div className="flex flex-col">
               <p className="text-left py-4 text-lg  font-mono font-thin">Select Currency</p>
-            <select 
-            className="block w-full p-3 border border-gray-200 rounded-lg"
+              <Select 
+                className="block w-full p-3 border text-black border-gray-200 rounded-lg placeholder:font-sans placeholder:font-normal"
+               defaultValue={'Ethereum'}
               value={isCurrency}
-              defaultValue={isCurrency}
-              onChange={(e) => setCategory(e.target.value)}
-            >
-            {tokens.map((index, token) => (
-              <option
-              className="text-sm font-medium"
-              key={index}
-               value={token.value}>
-                
-                {token.label}</option>
-            ))}
-          </select>
+              key={Date.now()}
+               onChange={(e) => {
+                setCurrency(e.value)
+              console.log(isCurrency)
+              } }
+              options={ tokens} />
             </div>
           </div>
 
@@ -312,10 +310,11 @@ s
 
           <div className="mt-4">
             <button
+            disabled={true}
               type="submit"
               className="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto"
             >
-              <span className="font-medium"> Send Enquiry </span>
+              <span className="font-medium">Coming soon</span>
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -10,12 +10,14 @@ const Announcement = () => {
         <div>
         <div className="px-4 py-3 text-white bg-indigo-600">
   <p className="text-sm font-medium text-center">
-    Love Cusor? Check out this new course!
+    Interested in Cusor? Join our webinar
 
-    <div className="underline" > Learn More &rarr; </div>
+    <div className="underline" > Click to learn more&rarr; </div>
   </p>
 </div>
         </div>
         </>
     )
 }
+
+export default Announcement
