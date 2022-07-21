@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <title>Cusor</title>
       </Head>
       <div className='sticky top-0 z-40'>
-      <Announcement />
+      {/* <Announcement /> */}
       <Navbar />
       </div>
     <Component {...pageProps} />
