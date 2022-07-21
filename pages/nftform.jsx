@@ -306,8 +306,6 @@ function NftForm() {
 
           </div>
 
-s
-
           <div className="mt-4">
             <button
             disabled={true}
