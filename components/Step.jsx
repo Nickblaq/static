@@ -3,7 +3,7 @@ export const Step = () => {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="flex flex-col md:flex-row items-center">
             <div className="w-full md:w-6/12 md:order-2 grid grid-cols-2 grid-rows-2 gap-2">
-              <img className="rounded-lg shadow-md shadow-slate-600" src="/azuki.png" />
+              <img className="rounded-lg shadow-md shadow-slate-600" src="/edo.gif" />
             <img className="rounded-lg shadow-md shadow-slate-600" src="/dood.jpg" />
             <img className="rounded-lg shadow-md shadow-slate-600" src="/passport.gif" />
             <img className="rounded-lg shadow-md shadow-slate-600" src="/sneek2.png" />
