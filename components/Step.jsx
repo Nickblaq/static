@@ -5,8 +5,8 @@ export const Step = () => {
             <div className="w-full md:w-6/12 md:order-2 grid grid-cols-2 grid-rows-2 gap-2">
               <img className="rounded-lg shadow-md shadow-slate-600" src="/edo.gif" />
             <img className="rounded-lg shadow-md shadow-slate-600" src="/dood.jpg" />
-            <img className="rounded-lg shadow-md shadow-slate-600" src="/passport.gif" />
             <img className="rounded-lg shadow-md shadow-slate-600" src="/sneek2.png" />
+            <img className="rounded-lg shadow-md shadow-slate-600" src="/passport.gif" />
             </div>
         <div className=" w-full md:w-6/12 mb-10 md:mx-auto sm:text-center  md:mb-12 md:order-1">
           <div>
