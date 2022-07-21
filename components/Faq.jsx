@@ -71,26 +71,27 @@ We make sure to reach the number of users and create a echos of your project and
         </p>
 
       <div className="flex flex-col md:flex-row md:justify-evenly items-center">
-        <div
-          className="inline-flex items-center px-8 py-3 mt-8 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
-          href="/get-started"
+        <button 
+          className="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue-600 border border-blue-300 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
         >
-          <span className="text-sm font-medium">Submit Event</span>
+          <span className="text-sm font-medium">Coming soon</span>
 
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 ml-3 animate-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
   <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
 </svg>
-        </div>
-        <div
-          className="inline-flex items-center px-8 py-3 mt-8 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
-          href="/get-started"
+        </button>
+        <a
+        rel="noopener noreferrer"
+        target="_blank"
+          className="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue-600 border border-blue-300  rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
+          href="https://fortune.com/2022/02/28/what-are-nft-whitelists-and-how-to-get-on-one/"
         >
           <span className="text-sm font-medium"> Learn More</span>
 
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 ml-3" viewBox="0 0 20 20" fill="currentColor">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-3" viewBox="0 0 20 20" fill="currentColor">
   <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd" />
 </svg>
-        </div>
+        </a>
         </div>
       </div>
     </div>
@@ -249,7 +250,7 @@ We make sure to reach the number of users and create a echos of your project and
       </div>
     </div>
 
-    <div className="mt-12 text-center">
+    {/* <div className="mt-12 text-center">
       <div
         className="inline-flex items-center px-8 py-3 mt-8 text-white bg-pink-600 border border-pink-600 rounded hover:bg-transparent active:text-pink-500 focus:outline-none focus:ring"
        
@@ -260,17 +261,17 @@ We make sure to reach the number of users and create a echos of your project and
   <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
 </svg>
       </div>
-    </div>
+    </div> */}
   </div>
 </section>
 
 
       {/* THIRD */}
-      <div className="space-y-4">
+      {/* <div className="space-y-4">
   <details className="p-6 rounded-lg bg-gray-50 group" open>
     <summary className="flex items-center justify-between cursor-pointer">
       <h5 className="font-medium text-gray-900">
-        Lorem ipsum dolor sit amet consectetur adipisicing?
+        What is Pissar?
       </h5>
 
       <span className="relative flex-shrink-0 ml-1.5 w-5 h-5">
@@ -360,7 +361,7 @@ We make sure to reach the number of users and create a echos of your project and
       earum similique!
     </p>
   </details>
-</div>
+</div> */}
       </div>
     );
   };

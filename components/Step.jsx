@@ -1,7 +1,7 @@
 export const Step = () => {
     return (
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-          <div className="flex flex-col md:flex-row items-center">
+          <div className="flex flex-col md:flex-row items-center mb-16">
             <div className="w-full md:w-6/12 md:order-2 grid grid-cols-2 grid-rows-2 gap-2">
               <img className="rounded-lg shadow-md shadow-slate-600" src="/edo.gif" />
             <img className="rounded-lg shadow-md shadow-slate-600" src="/dood.jpg" />
@@ -38,7 +38,7 @@ export const Step = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative font-black">Pisaar</span>
+              <span className="relative font-black text-blue-900 text-4xl">Pisaar</span>
             </span>{' '}
             MarketPlace
           </h2>
@@ -54,7 +54,7 @@ export const Step = () => {
               <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400">
                 1
               </p>
-              <p className="text-lg font-bold leading-5">List your whitelist spot</p>
+              <p className="text-lg md:text-2xl font-bold leading-5 text-blue-700">List your whitelist spot</p>
             </div>
             <p className="text-sm text-gray-900">
               List whitelist spot on the marketplace by uploading relevant details, Buy &apos; Sell whitelist spot securely using Pisaar.
@@ -66,7 +66,7 @@ export const Step = () => {
               <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400">
                 3
               </p>
-              <p className="text-lg font-bold leading-5">Calender</p>
+              <p className=" font-bold leading-5 text-blue-700 text-lg md:text-2xl">Calender</p>
             </div>
             <p className="text-sm text-gray-900">
             We cover the most eye-catching drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!
@@ -94,7 +94,7 @@ export const Step = () => {
               <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400">
                 2
               </p>
-              <p className="text-lg font-bold leading-5">Marketing</p>
+              <p className="text-lg md:text-2xl text-blue-700 font-bold leading-5">Marketing</p>
             </div>
             <p className="text-sm text-gray-900">
               Engage thousands of active users. Reach users across our social network, access targeted users Pisaar Campaign.
