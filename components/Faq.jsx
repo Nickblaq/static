@@ -102,7 +102,7 @@ We make sure to reach the number of users and create a echos of your project and
       <section className="text-white bg-gray-900">
   <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
     <div className="max-w-lg mx-auto text-center">
-      <h2 className="text-3xl font-bold sm:text-4xl">Why kickstart your marketing upcoming Event with Cusor?</h2>
+      <h2 className="text-3xl font-bold sm:text-4xl">Why kickstart your marketing upcoming Event with Pisaar?</h2>
 
       <p className="mt-4 text-gray-300 text-2xl text-left">
       To achieve goal, we implement different strategies and tactics,
@@ -140,7 +140,7 @@ We make sure to reach the number of users and create a echos of your project and
         </p>
       </div>
 
-      <div
+      {/* <div
         className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
       >
        
@@ -151,9 +151,9 @@ We make sure to reach the number of users and create a echos of your project and
         <h3 className="mt-4 text-xl font-bold text-white">Trend</h3>
 
         <p className="mt-1 text-sm text-gray-300">
-        Get exposure from heavy traffic i.e, 8-10k visitors of Cusor.
+        Get exposure from heavy traffic i.e, 8-10k visitors of Pisaar.
         </p>
-      </div>
+      </div> */}
 
       <div
         className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
@@ -196,7 +196,7 @@ We make sure to reach the number of users and create a echos of your project and
         We are open to every NFT publisher who wants our whitelist data for free.
         </p>
       </div>
-      <div
+      {/* <div
         className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
       >
         <div className="w-8 h-8">
@@ -208,7 +208,7 @@ We make sure to reach the number of users and create a echos of your project and
         <p className="mt-1 text-sm text-gray-300">
         Our goal at upcomingnft is to support the talents of every artist by promoting them.
         </p>
-      </div>
+      </div> */}
       <div
         className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
       >

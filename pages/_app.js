@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
        <Head>
-        <title>Cusor</title>
+        <title>Pissar</title>
       </Head>
       <div className='sticky top-0 z-40'>
       {/* <Announcement /> */}

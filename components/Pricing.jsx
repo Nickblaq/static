@@ -38,7 +38,7 @@ export const Pricing = () => {
             Membership Subscription.
           </h2>
           <p className="text-gray-700 text-lg font-bold">
-           Cusor one time payment 
+           Pisaar one time payment 
           </p>
         </div>
         <div className="grid max-w-md gap-10 row-gap-5 sm:row-gap-10 lg:max-w-screen-md mx-auto">
@@ -47,7 +47,7 @@ export const Pricing = () => {
               <div className="flex items-center justify-between pb-6 mb-6 border-b">
                 <div>
                   <p className="text-sm font-bold tracking-wider uppercase">
-                   Cusor use
+                   Pisaar use
                   </p>
                   <p className="text-5xl font-extrabold">$0</p>
                 </div>

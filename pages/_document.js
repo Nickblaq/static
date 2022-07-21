@@ -13,7 +13,7 @@ class MyDocument extends Document {
             <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
             <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ramaraja&display=swap" rel="stylesheet" />
     </Head>
-        <body className="">
+        <body className="bg-gray-200">
           <Main />
           <NextScript />
         </body>

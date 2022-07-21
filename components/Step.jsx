@@ -2,10 +2,13 @@ export const Step = () => {
     return (
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="flex flex-col md:flex-row items-center">
-            <div className="md:order-2">
-            <img src="/business.png" />
+            <div className="w-full md:w-6/12 md:order-2 grid grid-cols-2 grid-rows-2 gap-2">
+              <img className="rounded-lg shadow-md shadow-slate-600" src="/azuki.png" />
+            <img className="rounded-lg shadow-md shadow-slate-600" src="/dood.jpg" />
+            <img className="rounded-lg shadow-md shadow-slate-600" src="/passport.gif" />
+            <img className="rounded-lg shadow-md shadow-slate-600" src="/sneek2.png" />
             </div>
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 md:order-1">
+        <div className=" w-full md:w-6/12 mb-10 md:mx-auto sm:text-center  md:mb-12 md:order-1">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
               Make history
@@ -35,12 +38,12 @@ export const Step = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative font-black">Cusor</span>
+              <span className="relative font-black">Pisaar</span>
             </span>{' '}
             MarketPlace
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-          Cusor  cover the most eye-catching NFt-Whitelist, drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!
+          Pisaar  cover the most eye-catching NFt-Whitelist, drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!
           </p>
         </div>
         </div>
@@ -54,7 +57,7 @@ export const Step = () => {
               <p className="text-lg font-bold leading-5">List your whitelist spot</p>
             </div>
             <p className="text-sm text-gray-900">
-              List whitelist spot on the marketplace by uploading relevant details, Buy &apos; Sell whitelist spot securely using Cusor.
+              List whitelist spot on the marketplace by uploading relevant details, Buy &apos; Sell whitelist spot securely using Pisaar.
             </p>
           </div>
           
@@ -94,7 +97,7 @@ export const Step = () => {
               <p className="text-lg font-bold leading-5">Marketing</p>
             </div>
             <p className="text-sm text-gray-900">
-              Engage thousands of active users. Reach users across our social network, access targeted users Cusor Campaign.
+              Engage thousands of active users. Reach users across our social network, access targeted users Pisaar Campaign.
             </p>
           </div>
         </div>

@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Cusor</title>
-        <meta name="description" content="Cusor secure Nft whitelist marketplace" />
+        <title>Pisaar</title>
+        <meta name="description" content="Pisaar secure Nft whitelist marketplace" />
         <link rel="icon" href="/flame.svg" />
       </Head>
 

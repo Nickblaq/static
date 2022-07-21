@@ -232,7 +232,7 @@ function NftForm() {
               <label className="sr-only">website url</label>
               <input
                 className="block w-full p-3 border border-gray-200 rounded-lg placeholder:font-sans placeholder:font-normal"
-                placeholder="e.g https://cusor.xyz"
+                placeholder="e.g https://Pisaarr.xyz"
                 type="text"
               />
             </div>
@@ -242,7 +242,7 @@ function NftForm() {
               <label className="sr-only">twitter</label>
               <input
                 className="block w-full p-3 border border-gray-200 rounded-lg placeholder:font-sans placeholder:font-normal"
-                placeholder="e.g https://twitter.com/cusor"
+                placeholder="e.g https://twitter.com/Pisaarr"
                 type="text"
               />
             </div>

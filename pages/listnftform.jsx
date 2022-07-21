@@ -81,7 +81,7 @@ const ListNftForm = () => {
             <label className="">Twitter</label>
               <input
                 className="w-full p-3 text-sm border-gray-200 rounded-lg"
-                placeholder="@usecusor"
+                placeholder="@usePisaar"
                 type="text"
               />
             </div>
