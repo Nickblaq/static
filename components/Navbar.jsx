@@ -42,7 +42,7 @@ const Navbar = () => {
       className="flex items-center justify-between space-x-6 md:space-x-12 mx-auto"
     >
          <Link href='/listnftform'>
-         <span className="text-blue-900 active:text-blue-700 font-bold cursor-pointer text-xl md:text-2xl" >List</span>
+         <span className="text-blue-900 active:text-blue-700 font-bold cursor-pointer text-xl md:text-2xl" >Request</span>
          </Link>
          <Link href='/nftform'>
          <span className="text-blue-900 active:text-blue-700 font-bold cursor-pointer text-xl md:text-2xl" >Events</span>

@@ -98,7 +98,7 @@ const ListNftForm = () => {
             <label className="sr-only">fees</label>
             <p className="text-sm pb-2">NOT IN PREMIUM? FOR 30$ ANUALLY GET ACCESS TO PREMIUM DISCORD WHERE YOU GET HYPED MINTS FIRSTHAND AND MORE... SEND A DM TO JOIN PREMIUM</p>
             <textarea
-              className="w-5/12 p-3 text-sm border-gray-200 rounded-lg"
+              className="w-full p-3 text-sm border-gray-200 rounded-lg"
               placeholder="Yes or No. Add reasons if necessary"
             ></textarea>
           </div>

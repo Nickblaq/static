@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Step = () => {
     return (
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -46,6 +48,26 @@ export const Step = () => {
           Pissar cover the most eye-catching NFt-Whitelist, 
           drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!
           </p>
+          <Link href='/listnftform'>
+          <div className="mt-4">
+            <button
+              type="submit"
+              className="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto"
+            >
+              <span className="font-medium">Request</span>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-5 h-5 ml-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+          </div>
+          </Link>
         </div>
         </div>
 
