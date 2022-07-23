@@ -43,7 +43,8 @@ export const Step = () => {
             MarketPlace
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-          Pisaar  cover the most eye-catching NFt-Whitelist, drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!
+          Pisaar  cover the most eye-catching NFt-Whitelist, 
+          drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!
           </p>
         </div>
         </div>
@@ -57,7 +58,7 @@ export const Step = () => {
               <p className="text-lg md:text-2xl font-bold leading-5 text-blue-700">List your whitelist spot</p>
             </div>
             <p className="text-sm text-gray-900">
-              List whitelist spot on the marketplace by uploading relevant details, Buy &apos; Sell whitelist spot securely using Pisaar.
+              List whitelist spot on the marketplace by uploading relevant details, Buy	&amp; Sell whitelist spot securely using Pisaar.
             </p>
           </div>
           
