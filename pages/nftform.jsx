@@ -310,7 +310,7 @@ function NftForm() {
             <button
             disabled={true}
               type="submit"
-              className="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto"
+              className="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-gray-200 rounded-lg sm:w-auto"
             >
               <span className="font-medium">Coming soon</span>
 
