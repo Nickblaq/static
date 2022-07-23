@@ -11,7 +11,7 @@ export const Step = () => {
         <div className=" w-full md:w-6/12 mb-10 md:mx-auto sm:text-center  md:mb-12 md:order-1">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Make history
+              PISSAR MARKETPLACE
             </p>
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -38,12 +38,12 @@ export const Step = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative font-black text-blue-900 text-4xl">Pisaar</span>
+              <span className="relative font-black text-blue-900 text-4xl">NFT WHITELIST</span>
             </span>{' '}
             MarketPlace
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-          Pisaar  cover the most eye-catching NFt-Whitelist, 
+          Pissar cover the most eye-catching NFt-Whitelist, 
           drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!
           </p>
         </div>
@@ -58,7 +58,7 @@ export const Step = () => {
               <p className="text-lg md:text-2xl font-bold leading-5 text-blue-700">List your whitelist spot</p>
             </div>
             <p className="text-sm text-gray-900">
-              List whitelist spot on the marketplace by uploading relevant details, Buy	&amp; Sell whitelist spot securely using Pisaar.
+            List whitelist spot on the marketplace by uploading relevant details.
             </p>
           </div>
           
@@ -67,11 +67,10 @@ export const Step = () => {
               <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400">
                 3
               </p>
-              <p className=" font-bold leading-5 text-blue-700 text-lg md:text-2xl">Calender</p>
+              <p className=" font-bold leading-5 text-blue-700 text-lg md:text-2xl">Buy a whitelist spot</p>
             </div>
             <p className="text-sm text-gray-900">
-            We cover the most eye-catching drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!
-              Keep tabs on your favourite NFT projects by putting on push notification.
+            Engage with whitelist-spot sell ads of interest.
             </p>
             <p className="absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-deep-purple-accent-400 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10">
               <svg
@@ -95,10 +94,10 @@ export const Step = () => {
               <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400">
                 2
               </p>
-              <p className="text-lg md:text-2xl text-blue-700 font-bold leading-5">Marketing</p>
+              <p className="text-lg md:text-2xl text-blue-700 font-bold leading-5">Monitor upcoming mints</p>
             </div>
             <p className="text-sm text-gray-900">
-              Engage thousands of active users. Reach users across our social network, access targeted users Pisaar Campaign.
+            Keep tabs on your favorite NFT projects by putting on push notification.
             </p>
           </div>
         </div>

@@ -63,11 +63,10 @@ const Item = ({ title, children }) => {
       </div>
 
       <div className="lg:py-24">
-        <h2 className="text-3xl font-bold sm:text-4xl">Promote your NFT Project &apos; Rest Assured</h2>
+        <h2 className="text-3xl font-bold sm:text-4xl">Trade your NFT whitelist &amp; be rest assured</h2>
 
         <p className="mt-4 text-gray-600">
-        Every Artist has a dream to sell out on the minute its launched. We are a dedicated team who will look after your promotions to get the best outcomes and help our clients to achieve the goals of reaching the maximum audience. Creating difference, which will be valued towards the promoter&apos;s interest and building strong connections in the NFT world.
-We make sure to reach the number of users and create a echos of your project and show its importance.
+
         </p>
 
       <div className="flex flex-col md:flex-row md:justify-evenly items-center">
@@ -102,7 +101,7 @@ We make sure to reach the number of users and create a echos of your project and
 
       <section className="text-white bg-gray-900">
   <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-    <div className="max-w-lg mx-auto text-center">
+    {/* <div className="max-w-lg mx-auto text-center">
       <h2 className="text-3xl font-bold sm:text-4xl">Why kickstart your marketing upcoming Event with Pisaar?</h2>
 
       <p className="mt-4 text-gray-300 text-2xl text-left">
@@ -111,7 +110,7 @@ We make sure to reach the number of users and create a echos of your project and
        including marketing and channelizing the project towards the larger audience. 
        which will create a joeys atmosphere towards your project.
       </p>
-    </div>
+    </div> */}
 
     <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
       <div
@@ -223,7 +222,7 @@ We make sure to reach the number of users and create a echos of your project and
         We make a good community and a renowned presence on social media.
         </p>
       </div>
-      <div
+      {/* <div
         className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
       >
         <div className="w-8 h-8">
@@ -235,7 +234,7 @@ We make sure to reach the number of users and create a echos of your project and
         <p className="mt-1 text-sm text-gray-300">
         Enable unlimited event edits in the promoted events. Automate your pipeline.
         </p>
-      </div>
+      </div> */}
       <div
         className="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
       >
@@ -267,7 +266,7 @@ We make sure to reach the number of users and create a echos of your project and
 
 
       {/* THIRD */}
-      {/* <div className="space-y-4">
+      <div className="space-y-4 max-w-lg mx-auto">
   <details className="p-6 rounded-lg bg-gray-50 group" open>
     <summary className="flex items-center justify-between cursor-pointer">
       <h5 className="font-medium text-gray-900">
@@ -308,17 +307,15 @@ We make sure to reach the number of users and create a echos of your project and
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
-      molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
-      voluptate dicta quo officiis explicabo consequuntur distinctio corporis
-      earum similique!
+    Buylist is an NFT whitelist marketplace; 
+    it connects buyers and sellers of whitelisting spots in a peer-to-peer fashion.
     </p>
   </details>
 
   <details className="p-6 rounded-lg bg-gray-50 group">
     <summary className="flex items-center justify-between cursor-pointer">
       <h5 className="font-medium text-gray-900">
-        Lorem ipsum dolor sit amet consectetur adipisicing?
+      What is an NFT whitelist?
       </h5>
 
       <span className="relative flex-shrink-0 ml-1.5 w-5 h-5">
@@ -355,13 +352,12 @@ We make sure to reach the number of users and create a echos of your project and
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
-      molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
-      voluptate dicta quo officiis explicabo consequuntur distinctio corporis
-      earum similique!
+    An NFT whitelist is a list of eligible Hash addresses that would be added to an NFT collection	&apos;s smart contract to allow such addresses Mint from the collection without having to experience gas wars and other anomalies.
+    <br></br>
+    NFT whitelisting is a process of getting a wallet address pre-approved for minting an NFT out of an NFT collection.
     </p>
   </details>
-</div> */}
+</div>
       </div>
     );
   };
