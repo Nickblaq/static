@@ -18,10 +18,16 @@ export default function Home() {
         <title>Pisaar</title>
         <meta name="description" content="Pissarsecure Nft whitelist marketplace" />
         <link rel="icon" href="/flame.svg" />
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.22.0/dist/full.css" rel="stylesheet" type="text/css" />
       </Head>
 
       <main className={styles.main}>
         <Step />
+        <span class="countdown font-mono text-2xl">
+  <span style={{value:'10'}}></span>:
+  <span style={{value:'24'}}></span>:
+  <span style={{value:'53'}}></span>
+</span>
         {/* <Message /> */}
       </main>
 

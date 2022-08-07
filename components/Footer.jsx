@@ -11,14 +11,14 @@ const Footer = ({}) => {
         <div>
         <footer className="bg-gray-100">
   <div className="max-w-5xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-  <div className="max-w-md mx-auto">
+  {/* <div className="max-w-md mx-auto">
       <strong
         className="block text-xl font-medium text-center text-black sm:text-3xl"
       >
         Want us to email you with the latest blockbuster news?
       </strong>
       <Newsletter />
-    </div>
+    </div> */}
 
     <p className="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-500">
     

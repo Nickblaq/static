@@ -13,7 +13,7 @@ export const Step = () => {
         <div className=" w-full md:w-6/12 mb-10 md:mx-auto sm:text-center  md:mb-12 md:order-1">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              PISSAR MARKETPLACE
+              NFT
             </p>
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -40,13 +40,12 @@ export const Step = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative font-black text-blue-900 text-4xl">NFT WHITELIST</span>
+              <span className="relative font-black text-blue-900 text-4xl">COLLECTORS</span>
             </span>{' '}
-            MarketPlace
+            DAO
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-          Pissar cover the most eye-catching NFt-Whitelist, 
-          drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!
+          Become a collector, join forces and buy NFTs as a team.
           </p>
           <Link href='/listnftform'>
           <div className="mt-4">
@@ -54,7 +53,7 @@ export const Step = () => {
               type="submit"
               className="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto"
             >
-              <span className="font-medium">Request</span>
+              <span className="font-medium">Join Discord</span>
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +70,7 @@ export const Step = () => {
         </div>
         </div>
 
-        <div className="grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3">
+        {/* <div className="grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3">
           <div className="p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-deep-purple-accent-100 hover:-translate-y-2">
             <div className="flex items-center mb-2">
               <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-deep-purple-accent-400">
@@ -122,7 +121,7 @@ export const Step = () => {
             Keep tabs on your favorite NFT projects by putting on push notification.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   };
